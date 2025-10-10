@@ -12,7 +12,7 @@ class Solution(object):
 
         for r in range(len(s)):
             while s[r] in charSet:
-                charSet.remove(s[l])
+                charSet.remove(s[l])∏
                 l += 1
 
             charSet.add(s[r])
