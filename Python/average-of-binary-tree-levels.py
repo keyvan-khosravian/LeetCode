@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
+import collections
+
 class Solution(object):
     def averageOfLevels(self, root):
         """
